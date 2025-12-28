@@ -190,6 +190,32 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.hero-tagline {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* Mobile Hero Typography */
+@media (max-width: 767.98px) {
+  .hero-section h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .hero-tagline {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-tagline {
+    font-size: 1.5rem;
+  }
+}
+
 .scrolldown-wrapper {
   position: absolute;
   bottom: 30px;
